@@ -1,7 +1,6 @@
 # 게시판 요구사항 정의서
 
-## 프로젝트 기능 및 설계
-
+<h2>프로젝트 기능 및 설계</h2>
 <body>
     <table>
         <tr>
@@ -134,7 +133,7 @@
         </tr>
     </table>
 
-
+<h2>ERD</h2>
 <img src = "doc/img/NoticeBoardERD.png">
 
 </body>
