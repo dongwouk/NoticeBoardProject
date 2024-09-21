@@ -2,7 +2,6 @@
 
 ## 프로젝트 기능 및 설계
 
-
 <body>
     <table>
         <tr>
@@ -134,5 +133,8 @@
                 - 체크박스로 게시물 전체선택 및 일부선택으로 삭제 가능<br /></td>
         </tr>
     </table>
+
+
+<img src = "doc/img/NoticeBoardERD.png">
 
 </body>
