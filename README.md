@@ -136,4 +136,14 @@
 <h2>ERD</h2>
 <img src = "doc/img/NoticeBoardERD.png">
 
+# JDK 버전 선택
+JDK17
+1. JAVA LTS 버전 (8, 11, 17)
+2. Spring Boot 3.0 부터 JDK 17이상 요구
+
+# DB 선택
+MySql
+1. 게시판의 경우 RDBMS에 적합함
+2. 메모리 사용율이 낮아 개인프로젝트에 적합
+3. 별도의 DBMS을 설치해 사용 가능(확장성 용이)
 </body>
