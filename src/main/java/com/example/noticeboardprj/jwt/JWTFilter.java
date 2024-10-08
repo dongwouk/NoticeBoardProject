@@ -43,8 +43,8 @@ public class JWTFilter extends OncePerRequestFilter {
         } catch (ExpiredJwtException e){
 
             // response body
-            PrintWriter witer = response.getWriter();
-
+            PrintWriter writer = response.getWriter();
+            writer.print("invalid access token");
             // response status code (상태 코드)
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
             return;

@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public class ReissueController {
 
-    private ReissueService reissueService;
+    private final ReissueService reissueService;
 
     public ReissueController(ReissueService reissueService) {
         this.reissueService = reissueService;
