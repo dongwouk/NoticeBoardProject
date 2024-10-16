@@ -1,6 +1,6 @@
 package com.example.noticeboardprj.controller;
 
-import com.example.noticeboardprj.dto.request.JoinDTO;
+import com.example.noticeboardprj.dto.dto.JoinDTO;
 import com.example.noticeboardprj.service.JoinService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package com.example.noticeboardprj.dto;
+package com.example.noticeboardprj.dto.mapper;
 
 import com.example.noticeboardprj.entity.RoleEntity;
 import com.example.noticeboardprj.entity.UserEntity;
@@ -26,16 +26,6 @@ public class CustomUserDetails implements UserDetails {
         return roles.stream()
                 .map(role -> new SimpleGrantedAuthority(role.getName()))
                 .collect(Collectors.toSet());
-
-//        Collection<GrantedAuthority> collection = new ArrayList<>();
-//
-//        collection.add(new GrantedAuthority() {
-//            @Override
-//            public String getAuthority() {
-//                return userEntity.getRole();
-//            }
-//        });
-//        return collection;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.example.noticeboardprj.dto.request;
+package com.example.noticeboardprj.dto.dto;
 
 import lombok.Getter;
 import lombok.Setter;

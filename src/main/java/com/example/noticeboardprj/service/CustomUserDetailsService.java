@@ -1,6 +1,6 @@
 package com.example.noticeboardprj.service;
 
-import com.example.noticeboardprj.dto.CustomUserDetails;
+import com.example.noticeboardprj.dto.mapper.CustomUserDetails;
 import com.example.noticeboardprj.entity.UserEntity;
 import com.example.noticeboardprj.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,6 +1,6 @@
 package com.example.noticeboardprj.service;
 
-import com.example.noticeboardprj.dto.request.JoinDTO;
+import com.example.noticeboardprj.dto.dto.JoinDTO;
 import com.example.noticeboardprj.entity.RoleEntity;
 import com.example.noticeboardprj.entity.UserEntity;
 import com.example.noticeboardprj.repository.RoleRepository;
