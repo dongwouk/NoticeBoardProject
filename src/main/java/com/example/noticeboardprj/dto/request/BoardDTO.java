@@ -1,6 +1,5 @@
 package com.example.noticeboardprj.dto.request;
 
-import com.example.noticeboardprj.entity.BoardEntity;
 import lombok.Getter;
 import lombok.Setter;
 
